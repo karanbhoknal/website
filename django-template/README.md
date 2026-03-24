@@ -2,6 +2,31 @@
 
 This sample repo contains the recommended structure for a Python Django project. In this sample, we use `django` to build a web application and the `unittest` to run tests.
 
+# create folder webiste
+1. social networking website
+
+# create envoriment 
+2. python -m venv venv
+
+# activate venv
+3. venv\scripts\activate
+ 
+# Install django 
+3. install django
+
+# create django project folder
+4. django-admin startproject web_project 
+
+# create app
+5. python manage.py startapp hello
+
+# then run the server
+6. python manage.py runserver
+
+# create database file
+7. python manage.py migrate
+
+
 For a more in-depth tutorial, see our [Django tutorial](https://code.visualstudio.com/docs/datascience/data-science-tutorial).
 
 The code in this repo aims to follow Python style guidelines as outlined in [PEP 8](https://peps.python.org/pep-0008/).
